@@ -1,0 +1,22 @@
+{
+  "name": "lms-redis",
+  "version": "1.0.0",
+  "description": "A CommonJS Redis wrapper with shared connections and JSON cache helpers.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check index.js",
+    "prepublishOnly": "npm run check"
+  },
+  "keywords": ["redis", "cache", "json"],
+  "author": "Pradeep",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^5.5.5"
+  }
+}
